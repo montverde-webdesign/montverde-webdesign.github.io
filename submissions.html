@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submissions | Web Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Web Design</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+        <li><a href="submissions.html" class="active">Submissions</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Submissions</h1>
+    <p class="lead">
+      Each student keeps their own section of this site. Click a name to see their
+      warm-ups, classwork, and projects.
+    </p>
+
+    <!-- ============================================================
+         HOW TO ADD A STUDENT (teacher):
+         Copy one <li> ... </li> line, paste it into the list, and change:
+           - href: the student's repo name followed by a slash, like "jane-d/"
+           - the first name
+         Keep the list in alphabetical order by first name.
+         Use first names only (no last names on a public site).
+         ============================================================ -->
+
+    <ul class="students">
+      <li><a href="jane-d/">Jane <span>View section &rarr;</span></a></li>
+      <li><a href="sam-r/">Sam <span>View section &rarr;</span></a></li>
+    </ul>
+
+    <h2>For students</h2>
+    <p>
+      Your section is at <code>https://montverde-webdesign.github.io/your-section-name/</code>.
+      To add work to it, follow <a href="assignments.html#how-to-post">How to post your work</a>.
+    </p>
+  </main>
+
+  <footer>
+    Web Design &middot; Built with HTML, CSS, and GitHub Pages
+  </footer>
+</body>
+</html>
